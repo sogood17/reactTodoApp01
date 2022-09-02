@@ -3,7 +3,9 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+        <div className="heading">
+            <h1>To-Do List</h1>
+        </div>
       <h2>Start editing to see some magic happen!</h2>
     </div>
   );
