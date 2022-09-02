@@ -24,16 +24,14 @@ export default function App() {
             <h1>To-Do List</h1>
         </div>
         <div className="form">
-            <form>
             <input onChange={handleChange} type="text" value={inputText} />
             <button onClick={addTodo}><span>Add</span></button>
-            </form>
         </div>
         <div>
             <ul>
-                {todoItems.map(todoItem => {
+                {todoItems.map((todoItem) => (
                     <li>{todoItem}</li>
-                })}
+                ))}
             </ul>
         </div>
       </div>
